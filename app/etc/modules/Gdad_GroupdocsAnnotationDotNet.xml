@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Gdad_GroupdocsAnnotationDotNet>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Gdad_GroupdocsAnnotationDotNet>
+    </modules>
+</config>

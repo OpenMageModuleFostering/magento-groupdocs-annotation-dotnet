@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<package>
+    <name>magento-groupdocs-annotation-dotnet</name>
+    <version>1.0.0</version>
+    <stability>stable</stability>
+    <license uri="http://opensource.org/licenses/osl-3.0.php">GPL</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>HTML5-based document annotation tool from GroupDocs (.NET version).</summary>
+    <description>This extension integrates a downloadable .NET version of the &lt;a href="http://groupdocs.com/html5-document-annotation" target="_blank"&gt;GroupDocs HTML5-based document annotation tool&lt;/a&gt; into your Magento website. It enhances your Magento functionality with the capability to display and annotate over 50 document and image types. To name just a few, GroupDocs.Annotation allows you and your users to annotate PDF and Word documents, Excel spreadsheets, PowerPoint slides, OpenDocument files, Visio diagrams, CAD and raster images (TIFF, JPEG, PNG, GIF, BMP).&#xD;
+&#xD;
+&lt;h3&gt;Key Features &amp; Benefits&lt;/h3&gt;&#xD;
+&#xD;
+&lt;p&gt;1. Documents embedded to your Magento website via GroupDocs.Annotation can be viewed and annotated from any web-enabled device, including mobiles and tablets. There is no need to install the original software that the documents were created in. All a user needs is an HTMl5-complint browser, like IE8+, Chrome, FireFox, Opera or Safari5+.&lt;/p&gt;&#xD;
+&#xD;
+&lt;p&gt;2. A wide set of annotation tools include: sticky notes, arrows, freehand lines, rectangles, text strikethrough/underline and replacement, redaction, ruler, undo/redo, etc.&lt;/p&gt;&#xD;
+&#xD;
+&lt;p&gt;3. A real-time document annotation mode provides unmatched experience in online document review and approval process. Users can easily invite colleagues and partners to review a document, see and reply to each other&#x2019;s comments in real time, and then download or print annotated documents with comments in them.&lt;/p&gt;&#xD;
+&#xD;
+&lt;p&gt;4. Thanks to support for native Word and PDF annotations, DOC/DOCX or PDF documents annotated via GroupDocs.Annotation can be exported to Word or PDF files respectively along with annotations in them for further offline review and editing.&lt;/p&gt;&#xD;
+&#xD;
+&lt;p&gt;5. Documents your share for online review via GroupDocs.Annotation, are not downloaded to users&#x2019; machines. Instead, the library converts them into a web-compatible content (a combination of HTML, CSS, images and JS), and then renders them in users&#x2019; web-browsers just like a regular web-page. Combined with the DRM (Digital Rights Management) feature, this allows you to prevent users from coping, printing or downloading the documents you published, while still sharing them with your colleagues and partners.&lt;/p&gt;&#xD;
+&#xD;
+&lt;h3&gt;Installation&lt;/h3&gt;&#xD;
+&#xD;
+&lt;strong&gt;Please note:&lt;/strong&gt; This plugin integrates the downloadable .NET version of the GroupDocs HTML5 document annotator. Unlike the &lt;a href="http://www.magentocommerce.com/magento-connect/groupdocsannotation.html" target="_blank"&gt;cloud-based extension&lt;/a&gt; released earlier, this version allows you to host and store your documents locally, but requires the GroupDocs.Annotation for .NET library to be installed on your server first. A free evaluation copy of the library can be downloaded from GroupDocs website at:&#xD;
+&lt;a href="http://groupdocs.com/html5-document-annotation" target="_blank"&gt;http://groupdocs.com/html5-document-annotation&lt;/a&gt;</description>
+    <notes>Initial release</notes>
+    <authors><author><name>GroupDocs</name><user>Marketplace</user><email>support@groupdocs.com</email></author></authors>
+    <date>2015-01-26</date>
+    <time>07:44:31</time>
+    <contents><target name="magelocal"><dir name="Gdad"><dir name="GroupdocsAnnotationDotNet"><dir name="Block"><dir name="Adminhtml"><dir name="Cms"><dir name="Page"><file name="Edit.php" hash="13418168166e4f577279359dcef3dac2"/></dir></dir><file name="GroupdocsAnnotationDotNet.php" hash="908c782ddf499a447853adedda0803a7"/></dir></dir><dir name="Helper"><file name="Data.php" hash="d28ef0f1863304593e45cc57b6caca79"/></dir><dir name="Model"><dir name="Mysql4"><dir name="GroupdocsAnnotationDotNet"><file name="Collection.php" hash="ba3a4e67a2be56a5bb247e185e69c3fd"/></dir><file name="groupdocsannotationdotnet.php" hash="1462df195906997435e819d3379ca2f2"/></dir><file name="groupdocsannotationdotnet.php" hash="1aaa78c75df7117614f387a68b785252"/></dir><dir name="controllers"><dir name="Adminhtml"><file name="AnnotationDotNetController.php" hash="f8430625183be1298aaa81e81038341f"/></dir></dir><dir name="etc"><file name="config.xml" hash="2eb04d9031c6d76a998b8f1275628de1"/></dir><dir name="js"><file name="insert.js" hash="f134ce5bb1f0176f97b4b7d812099c59"/><file name=".htaccess" hash="7cffe2704dc0e86389a2d02391dcca5d"/></dir><dir name="sql"><dir name="GroupdocsAnnotationDotNet_setup"><file name="mysql4-install-0.1.0" hash="5ea7b8c567e276c9155acaa4497fd827"/></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Gdad_GroupdocsAnnotationDotNet.xml" hash="bd39c21cb8c0f0daea95df922d81765a"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.3.0</min><max>5.6.0</max></php></required></dependencies>
+</package>

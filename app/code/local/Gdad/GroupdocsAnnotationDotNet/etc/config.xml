@@ -1,0 +1,119 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Gdad_GroupdocsAnnotationDotNet>
+            <version>0.1.0</version>
+        </Gdad_GroupdocsAnnotationDotNet>
+    </modules>
+    
+    <global>
+        
+    <blocks>
+         <adminhtml>
+            <rewrite>
+                <cms_page_edit>Gdad_GroupdocsAnnotationDotNet_Block_Adminhtml_Cms_Page_Edit</cms_page_edit>
+            </rewrite>
+        </adminhtml>
+    </blocks>
+
+        
+        <models>
+            <groupdocsannotationdotnet>
+                <class>Gdad_GroupdocsAnnotationDotNet_Model</class>
+                <resourceModel>groupdocsannotationdotnet_mysql4</resourceModel>
+            </groupdocsannotationdotnet>
+            <groupdocsannotationdotnet_mysql4>
+                <class>Gdad_GroupdocsAnnotationDotNet_Model_Mysql4</class>
+                <entities>
+                    <groupdocsannotationdotnet>
+                        <table>groupdocsad</table>
+                    </groupdocsannotationdotnet>
+                </entities>
+            </groupdocsannotationdotnet_mysql4>
+        </models>
+<resources>
+        <groupdocsannotationdotnet_write>
+            <connection>
+                <use>core_write</use>
+            </connection>
+        </groupdocsannotationdotnet_write>
+
+       <groupdocsannotationdotnet_read>
+          <connection>
+             <use>core_read</use>
+          </connection>
+       </groupdocsannotationdotnet_read>
+       
+       <groupdocsannotationdotnet_delete>
+          <connection>
+             <use>core_delete</use>
+          </connection>
+       </groupdocsannotationdotnet_delete>
+</resources>
+
+        
+        
+        
+        
+        <blocks>
+            <groupdocsannotationdotnet>
+                <class>Gdad_GroupdocsAnnotationDotNet_Block</class>
+            </groupdocsannotationdotnet>
+        </blocks>
+        <helpers>
+            <groupdocsannotationdotnet>
+                <class>Gdad_GroupdocsAnnotationDotNet_Helper</class>
+            </groupdocsannotationdotnet>  
+        </helpers>
+    </global>
+    
+    <admin>
+        <routers>
+            <groupdocsannotationdotnet>
+                <use>admin</use>
+                <args>
+                    <module>Gdad_GroupdocsAnnotationDotNet</module>
+                    <frontName>groupdocsannotationdotnet</frontName>
+                </args>
+            </groupdocsannotationdotnet>
+        </routers>
+    </admin>
+    
+    <adminhtml>
+        
+        <menu>
+            <catalog>
+                <children>
+                    <groupdocsannotationdotnet_adminform translate="title" module="groupdocsannotationdotnet">
+                        <title>Groupdocs Annotation .NET</title>
+                        <action>groupdocsannotationdotnet/adminhtml_annotationdotnet</action>
+                    </groupdocsannotationdotnet_adminform>
+                </children>
+            </catalog>
+        </menu>
+        
+        <acl>
+            <resources>
+                <admin>
+                    <children>
+                        <catalog>
+                            <children>
+                                <groupdocsannotationdotnet_adminform>
+                                    <title>Groupdocs Annotation .NET</title>
+                                </groupdocsannotationdotnet_adminform>
+                            </children>
+                        </catalog>
+                    </children>
+                </admin>
+            </resources>
+        </acl>
+        
+        <layout>
+            <updates>
+                <groupdocsannotationdotnet>
+                    <file>groupdocsannotationdotnet.xml</file>
+                </groupdocsannotationdotnet>
+            </updates>
+        </layout>
+    </adminhtml>
+</config>
