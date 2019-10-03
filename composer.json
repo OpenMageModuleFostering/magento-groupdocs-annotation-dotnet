@@ -1,7 +1,7 @@
 {
-    "name": "OpenMageModuleFostering\/magento-groupdocs-annotation-dotnet",
+    "name": "openmage-module-fostering\/magento-groupdocs-annotation-dotnet",
     "type": "magento-module",
-    "license": "GPL",
+    "license": "OSL-3.0",
     "homepage": "",
     "description": "HTML5-based document annotation tool from GroupDocs (.NET version).",
     "authors": [
