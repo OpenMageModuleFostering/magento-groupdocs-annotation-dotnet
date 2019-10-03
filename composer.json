@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/magento-groupdocs-annotation-dotnet",
+    "name": "OpenMageModuleFostering\/magento-groupdocs-annotation-dotnet",
     "type": "magento-module",
     "license": "GPL",
     "homepage": "",
     "description": "HTML5-based document annotation tool from GroupDocs (.NET version).",
     "authors": [
-    {
-        "name": "GroupDocs",
-        "email": "support@groupdocs.com"
-    }
-],
+        {
+            "name": "GroupDocs",
+            "email": "support@groupdocs.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
